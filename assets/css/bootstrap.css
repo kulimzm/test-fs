@@ -315,6 +315,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: auto;
+  margin-top: 15px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -401,7 +403,7 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
+  margin-top: 1px;
   margin-bottom: 10px;
 }
 h1 small,
