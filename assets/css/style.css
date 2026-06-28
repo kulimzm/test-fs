@@ -72,7 +72,7 @@ body {
 body {
     font-family: "Lato" sans-serif;
     font-weight: 400;
-    font-size: 16px;
+/*     font-size: 16px; */
     color: #000;
 
     -webkit-font-smoothing: antialiased;
@@ -296,12 +296,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .name-label {
-	width: 60px;
+	width: 80px;
 	height: 60px;
 	margin: 0 auto 45px;
 	border-top: 1px solid #000;
 	background: url(../img/name-label.png) center bottom no-repeat;
 	background-size: 35px 35px;
+	padding: 3px;
 }
 
 .name-zig {
