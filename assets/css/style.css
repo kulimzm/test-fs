@@ -495,18 +495,13 @@ h1, h2, h3, h4, h5, h6 {
                 font-size: 17px; /* Немного увеличиваем текст на смартфонах */
             }
             
-            /* Показываем кнопку меню, прячем обычные ссылки */
-            .menu-toggle {
-                display: block;
-            }
-            nav {
-                display: none; /* В реальном проекте здесь будет раскрывающееся меню */
-            }
-
-            /* Перестраиваем сетку в ОДНУ колонку */
-            .grid {
-                grid-template-columns: 1fr;
-            }
+			.sep {
+				background-attachment: fixed;
+				background-position: 30% 0;
+				background-repeat: no-repeat;
+				height: 200px;
+				position: relative;
+			}
 
             /* Кнопка растягивается на всю ширину экрана для удобства нажатия */
             .btn {
@@ -518,12 +513,12 @@ h1, h2, h3, h4, h5, h6 {
             /* Уменьшаем заголовки, чтобы они не переносились некрасиво */
 			
 			#headerwrap h1 {
-			color:#ffffff;
-			margin-top: 10px;
-			padding-bottom: 10px;
-			letter-spacing: 4px;
-			font-size: 30px;
-			font-weight: bold;
-			text-shadow: 2px 2px 2px #000;
+				color:#ffffff;
+				margin-top: 20px;
+				padding-bottom: 10px;
+				letter-spacing: 4px;
+				font-size: 50px;
+				font-weight: bold;
+				text-shadow: 1px 1px 1px #000;
 			}
         }
