@@ -494,12 +494,14 @@ h1, h2, h3, h4, h5, h6 {
             body {
                 font-size: 17px; /* Немного увеличиваем текст на смартфонах */
             }
-
-			img {
+			
+			.about {
+				background-image: url(../img/about-sep.webp);
 				max-width: 100%;
 				height: auto;
 			}
-            
+			
+           
 			.sep {
 				background-attachment: fixed;
 				background-position: 10% 0;
@@ -512,6 +514,7 @@ h1, h2, h3, h4, h5, h6 {
             /* Уменьшаем заголовки, чтобы они не переносились некрасиво */
 			
 			#headerwrap h1 {
+				background: url(../img/homeRobo-m.webp) no-repeat center top;
 				color:#ffffff;
 				margin-top: 20px;
 				padding-bottom: 10px;
