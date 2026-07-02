@@ -495,27 +495,22 @@ h1, h2, h3, h4, h5, h6 {
                 font-size: 17px; /* Немного увеличиваем текст на смартфонах */
             }
 			
-			.about {
-				background-image: url(../img/about-sep.webp);
-				max-width: 100%;
-				height: auto;
-			}
-			
-           
 			.sep {
 				background-attachment: fixed;
-				background-position: 10% 0;
+				background-position: 50% 0;
 				background-repeat: no-repeat;
-				height: 100px;
+				height: 200px;
 				position: relative;
 			}
 
-           
-            /* Уменьшаем заголовки, чтобы они не переносились некрасиво */
-			
+			.about {
+				background-image: url(../img/about-sep-m.webp);
+			}
+
+
 			#headerwrap h1 {
 				color:#ffffff;
-				margin-top: 20px;
+				margin-top: 50px;
 				padding-bottom: 10px;
 				letter-spacing: 4px;
 				font-size: 40px;
