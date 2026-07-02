@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio {
-	background-image: url(../img/portfolio-sep.jpg);
+	background-image: url(../img/about-sep-end.webp);
 }
 
 /* Service Wrap */
@@ -497,19 +497,13 @@ h1, h2, h3, h4, h5, h6 {
             
 			.sep {
 				background-attachment: fixed;
-				background-position: 30% 0;
+				background-position: 10% 0;
 				background-repeat: no-repeat;
-				height: 200px;
+				height: 100px;
 				position: relative;
 			}
 
-            /* Кнопка растягивается на всю ширину экрана для удобства нажатия */
-            .btn {
-                display: block;
-                width: 100%;
-                text-align: center;
-            }
-            
+           
             /* Уменьшаем заголовки, чтобы они не переносились некрасиво */
 			
 			#headerwrap h1 {
