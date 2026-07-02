@@ -514,7 +514,6 @@ h1, h2, h3, h4, h5, h6 {
             /* Уменьшаем заголовки, чтобы они не переносились некрасиво */
 			
 			#headerwrap h1 {
-				background: url(../img/homeRobo-m.webp) no-repeat center top;
 				color:#ffffff;
 				margin-top: 20px;
 				padding-bottom: 10px;
@@ -522,5 +521,26 @@ h1, h2, h3, h4, h5, h6 {
 				font-size: 40px;
 				font-weight: bold;
 				text-shadow: 1px 1px 1px #000;
+			}
+
+			#headerwrap {
+				background: url(../img/homeRobo-m.webp) no-repeat center top;
+				margin-top: 0px;
+				padding-top:20px;
+				text-align:center;
+				background-attachment: relative;
+				background-position: center center;
+				height: auto;
+				max-width: 100%;
+				
+				-webkit-background-size: 100%;
+				-moz-background-size: 100%;
+				-o-background-size: 100%;
+				background-size: 100%;
+
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
 			}
         }
