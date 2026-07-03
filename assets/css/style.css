@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(../img/contact-sep.jpg);
+	background-image: url(../img/contact-sep.webp);
 }
 
 #contactwrap label {
@@ -502,6 +502,10 @@ h1, h2, h3, h4, h5, h6 {
 
 			.portfolio {
 				background-image: url(../img/about-sep-end-m.webp);
+			}
+			
+			.contact {
+				background-image: url(../img/contact-sep-m.webp);
 			}
 
 			#headerwrap h1 {
