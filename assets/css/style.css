@@ -281,6 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* About Wrap & Conf */
 #aboutwrap {
+	scroll-margin-top: 20px;
 	margin-top: 80px;
 	margin-bottom: 40px;
 }
