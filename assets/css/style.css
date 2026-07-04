@@ -336,6 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Portfolio Wrap Section */
 #portfoliowrap {
 	display: block;
+	scroll-margin-top: 30px;
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
