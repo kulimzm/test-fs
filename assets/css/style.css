@@ -21,7 +21,6 @@ button,
 input,
 select,
 textarea {
-	scroll-behavior: smooth;
     color: #222;
 }
 
@@ -67,6 +66,7 @@ textarea {
 
 html,
 body {
+	scroll-behavior: smooth;
     height: 100%;
 }
 
