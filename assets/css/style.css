@@ -66,7 +66,7 @@ textarea {
 
 html,
 body {
-	scroll-behavior: smooth;
+/*	scroll-behavior: smooth;*/
     height: 100%;
 }
 
@@ -331,11 +331,14 @@ h1, h2, h3, h4, h5, h6 {
 	height: 60dvh;
 }
 .about {
+	background-attachment: fixed;
+	scroll-margin-top: 20px;
 	background-image: url(../img/about-sep.webp);
 }
 
 /* Portfolio Wrap Section */
 #portfoliowrap {
+	scroll-margin-top: 20px;
 	display: block;
 	scroll-margin-top: 30px;
 	margin-top: 80px;
@@ -356,6 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #portfoliowrap i {
+	scroll-margin-top: 20px;
 	font-size: 50px;
 }
 
@@ -376,6 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Service Wrap */
 #servicewrap {
+	scroll-margin-top: 20px;
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
@@ -409,6 +414,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Testimonials Wrap */
 #testimonials {
+	scroll-margin-top: 20px;
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
@@ -525,4 +531,7 @@ h1, h2, h3, h4, h5, h6 {
 				background: url(../img/homeRobo-m.webp) no-repeat center top;
 				min-height: 60dvh;
 			}
-        }
+
+			#servicewrap {
+				scroll-behavior: smooth;
+        	}
